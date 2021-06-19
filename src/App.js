@@ -1,22 +1,19 @@
-import logo from "./assets/images/logo_transparent_background.png";
+import logoIcon from "./assets/images/logo_transparent_background_icon.png";
+import logo from "./assets/images/white_logo_transparent_background.png";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        {/* <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
+        <img src={logoIcon} className="App-logo" alt="logo" />
+        <div>
+          <img
+            src={logo}
+            className="logo"
+            alt="logo for Freeborg Web Designs"
+          />
+        </div>
       </header>
     </div>
   );
